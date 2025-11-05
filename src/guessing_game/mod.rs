@@ -32,7 +32,7 @@ pub fn run() {
             Ordering::Less => println!("{}", "Too small!".red()),
             Ordering::Greater => println!("{}", "Too big!".red()),
             Ordering::Equal => {
-                println!("{}", "🎉 You win! 🎉".bright_green().bold());
+                println!("{}", " You win! ".bright_green().bold());
                 break;
             }
         }
